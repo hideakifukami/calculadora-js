@@ -29,3 +29,67 @@ body {
     grid-gap: 2px;
 }
 
+button {
+    width: 5rem;
+    height: 3.5rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.btn-num {
+    font-size: large;
+    font-weight: bold;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.btnIgual {
+    background-color: #95BFF5;
+}
+
+.btnIgual:hover {
+    background-color: #75A9EE;
+}
+
+.btnSinais {
+    font-size: 20px;
+}
+
+.scroll {
+    width: 20rem;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.display {
+    font-weight: bold;
+    width: 100%;
+    text-align: end;
+    font-size: 35px;
+    padding: 15px 5px;
+}
+
+@media(max-width: 600px) {
+    button {
+        width: 4rem;
+    }
+
+    .scroll {
+        width: 16rem;
+    }
+}
+
+@media(max-width: 300px) {
+    button{
+        width: 3rem;
+    }
+
+    .scroll {
+        width: 12rem;
+    }
+}
