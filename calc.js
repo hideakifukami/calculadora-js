@@ -13,3 +13,11 @@ const igual = document.getElementById('igual')
 
 const nums = document.querySelectorAll('[id*=num]')
 const operadores = document.querySelectorAll('[id*=sinal]')
+
+let primeiro = true
+let operador
+let numeroAnterior
+let numeroAtual
+let apagarIgual
+
+
