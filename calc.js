@@ -44,7 +44,7 @@ const inserirOperador = e => {
     primeiro = true
     operador = e.target.textContent
     if (operador == 'x') {
-        operador == '*'
+        operador = '*'
     } else if (operador == '÷') {
         operador = '/'
     }
